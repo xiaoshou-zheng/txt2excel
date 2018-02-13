@@ -41,4 +41,4 @@ for i in range(num):
 		sheet.cell(row=i+a,column=j+b).value=temp[j]
 workbook.save(filename)
 print("\nCompleted\n")
-input("Press any key to exit.")
+input("Press enter to exit.")
